@@ -19,17 +19,15 @@ CATEGORY_NAMES = {
     'cs.RO': 'Robotics'
 }
 
-# Configure Gemini
 GENAI_KEY = os.environ.get("GEMINI_API_KEY")
 if GENAI_KEY:
     genai.configure(api_key=GENAI_KEY)
-else:
-    print("WARNING: No API Key found. Summary will be skipped.")
 
 def fetch_random_paper():
     selected_category = random.choice(CATEGORIES)
     print(f"Selected Category: {selected_category}")
     
+    # Use standard urllib for API (it usually works fine without headers)
     url = f'http://export.arxiv.org/api/query?search_query=cat:{selected_category}&start=0&max_results=30&sortBy=submittedDate&sortOrder=descending'
     
     try:
@@ -42,7 +40,6 @@ def fetch_random_paper():
 
         random_entry = random.choice(entries)
         
-        # Get the PDF link (replace 'abs' with 'pdf')
         pdf_link = random_entry.find('{http://www.w3.org/2005/Atom}id').text.replace("/abs/", "/pdf/") + ".pdf"
         
         return {
@@ -59,23 +56,37 @@ def fetch_random_paper():
 def extract_text_from_pdf(pdf_url):
     print(f"Downloading PDF: {pdf_url}...")
     try:
-        response = requests.get(pdf_url)
+        # FIX: Add a User-Agent so ArXiv thinks we are a browser, not a bot
+        headers = {
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        }
+        response = requests.get(pdf_url, headers=headers)
+        
+        if response.status_code != 200:
+            print(f"Failed to download PDF. Status Code: {response.status_code}")
+            return None
+            
         f = io.BytesIO(response.content)
         reader = PdfReader(f)
         
         text = ""
-        # Only read the first 5 pages to save time/tokens (usually enough for Intro/Results)
         for page in reader.pages[:5]: 
             text += page.extract_text() + "\n"
+        
+        if not text.strip():
+            print("PDF downloaded but text is empty.")
+            return None
+            
         return text
     except Exception as e:
         print(f"Error reading PDF: {e}")
         return None
 
 def generate_ai_summary(text):
-    if not GENAI_KEY: return "API Key missing. Could not generate summary."
+    if not GENAI_KEY: return "Error: GEMINI_API_KEY not found in Secrets."
+    if not text: return "Error: PDF Text extraction failed (empty text)."
     
-    print("Sending text to Gemini for analysis...")
+    print("Sending text to Gemini...")
     model = genai.GenerativeModel('gemini-1.5-flash')
     
     prompt = """
@@ -92,14 +103,14 @@ def generate_ai_summary(text):
     (What were the key findings? Did they beat state-of-the-art?)
     
     Here is the paper text:
-    """ + text[:30000] # Truncate to ensure we don't hit limits
+    """ + text[:30000]
     
     try:
         response = model.generate_content(prompt)
         return response.text
     except Exception as e:
-        print(f"Gemini Error: {e}")
-        return "AI generation failed."
+        # Log the ACTUAL error to the file so we can debug
+        return f"AI Generation Failed. Error details: {str(e)}"
 
 def save_paper_note(paper, ai_summary):
     if not os.path.exists("papers"):
@@ -108,10 +119,6 @@ def save_paper_note(paper, ai_summary):
     safe_title = re.sub(r'[^\w\-_\. ]', '', paper['title']).replace(' ', '_')[:40]
     filename = f"papers/{paper['date']}_{safe_title}.md"
     
-    if os.path.exists(filename):
-        print("File already exists. Skipping.")
-        return
-
     content = f"""# {paper['title']}
 
 - **Category:** {paper['category']}
@@ -133,12 +140,7 @@ def save_paper_note(paper, ai_summary):
 if __name__ == "__main__":
     paper = fetch_random_paper()
     if paper:
-        # 1. Download & Extract Text
         pdf_text = extract_text_from_pdf(paper['pdf_link'])
-        
-        if pdf_text:
-            # 2. Generate Summary
-            summary = generate_ai_summary(pdf_text)
-            
-            # 3. Save File
-            save_paper_note(paper, summary)
+        # Even if pdf_text is None, we run this to print the error message to the file
+        summary = generate_ai_summary(pdf_text) 
+        save_paper_note(paper, summary)
