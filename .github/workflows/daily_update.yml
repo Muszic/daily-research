@@ -23,7 +23,7 @@ jobs:
 
       - name: Install Dependencies
         run: |
-          pip install requests pypdf google-generativeai
+          pip install requests pypdf google-genai
 
       - name: Run AI Analyst
         env:
