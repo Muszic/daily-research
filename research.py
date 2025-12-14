@@ -3,15 +3,11 @@ import xml.etree.ElementTree as ET
 from datetime import datetime
 
 # --- CONFIGURATION ---
-# 'cs.CV' = Computer Vision
-# 'cs.CL' = Computation and Language (NLP)
-# 'cs.LG' = Machine Learning
-CATEGORY = 'cs.CV' 
+CATEGORY = 'cs.CV'  # Computer Vision
 FILENAME = "DAILY_PAPERS.md"
 # ---------------------
 
 def fetch_latest_paper():
-    # Query ArXiv API for the most recent paper in the category
     print(f"Fetching latest paper for {CATEGORY}...")
     url = f'http://export.arxiv.org/api/query?search_query=cat:{CATEGORY}&start=0&max_results=1&sortBy=submittedDate&sortOrder=descending'
     
@@ -24,7 +20,6 @@ def fetch_latest_paper():
             print("No entry found.")
             return None
 
-        # Extract details (cleaning up newlines in titles/summaries)
         title = entry.find('{http://www.w3.org/2005/Atom}title').text.replace('\n', ' ').strip()
         summary = entry.find('{http://www.w3.org/2005/Atom}summary').text.replace('\n', ' ').strip()
         link = entry.find('{http://www.w3.org/2005/Atom}id').text
@@ -46,7 +41,7 @@ def update_file(paper):
 
     date_str = datetime.now().strftime("%Y-%m-%d")
     
-    # Format the new entry (Markdown)
+    # Create the new entry text
     new_entry = f"""
 ## [{date_str}] {paper['title']}
 **Published:** {paper['date']} | [Read Paper]({paper['link']})
@@ -56,24 +51,16 @@ def update_file(paper):
 ---
 """
     
-    # Read existing content
+    # Read the existing file content
     try:
         with open(FILENAME, "r") as f:
             existing_content = f.read()
     except FileNotFoundError:
         existing_content = "# Daily ArXiv Research Log\n\n"
-        
-    # Write new content AT THE TOP (Prepend)
-    with open(FILENAME, "w") as f:
-        f.write(existing_content + new_entry) # Writes to bottom. Swap to `new_entry + existing_content` if you want newest at top.
-        # I recommend appending to bottom for a chronological log, or top for a 'blog' style.
-        # Let's stick to appending to the bottom for a history log:
-        f.write(entry_to_write) 
     
-    # CORRECTED LOGIC for "Newest at Top" (Better for visibility):
-    final_content = new_entry + existing_content.replace("# Daily ArXiv Research Log\n\n", "")
+    # Write the new entry + existing content (Newest at the top)
     with open(FILENAME, "w") as f:
-        f.write("# Daily ArXiv Research Log\n\n" + final_content)
+        f.write("# Daily ArXiv Research Log\n\n" + new_entry + existing_content.replace("# Daily ArXiv Research Log\n\n", ""))
     
     print(f"Successfully added: {paper['title']}")
 
