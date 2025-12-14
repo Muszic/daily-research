@@ -24,7 +24,7 @@ jobs:
           python-version: '3.9'
 
       - name: Run Script
-        run: python research_bot.py
+        run: python research.py
 
       - name: Commit and Push
         run: |
