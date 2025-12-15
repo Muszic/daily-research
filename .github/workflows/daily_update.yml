@@ -32,8 +32,8 @@ jobs:
 
       - name: Commit and Push
         run: |
-          git config --global user.name "AI Research Bot"
-          git config --global user.email "bot@noreply.github.com"
+          git config --global user.name "Muszic"
+          git config --global user.email "allaboutsangit@gmail.com"
           git add papers/ run_log.txt
           git commit -m "Daily Research Update" || echo "No changes"
           git push
