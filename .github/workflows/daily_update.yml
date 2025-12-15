@@ -34,6 +34,6 @@ jobs:
         run: |
           git config --global user.name "AI Research Bot"
           git config --global user.email "bot@noreply.github.com"
-          git add papers/
-          git commit -m "Added AI analysis of new paper" || echo "No changes"
+          git add papers/ run_log.txt
+          git commit -m "Daily Research Update" || echo "No changes"
           git push
