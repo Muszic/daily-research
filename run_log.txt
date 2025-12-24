@@ -8,3 +8,4 @@
 [2025-12-21 02:33:01] Successfully processed: EPSM: A Novel Metric to Evaluate the Safety of Environmental Perception in Autonomous Driving
 [2025-12-22 02:32:19] Successfully processed: Imputation Uncertainty in Interpretable Machine Learning Methods
 [2025-12-23 02:28:10] Failed to fetch from ArXiv.
+[2025-12-24 02:25:01] Successfully processed: Point What You Mean: Visually Grounded Instruction Policy
