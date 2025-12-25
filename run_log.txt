@@ -9,3 +9,4 @@
 [2025-12-22 02:32:19] Successfully processed: Imputation Uncertainty in Interpretable Machine Learning Methods
 [2025-12-23 02:28:10] Failed to fetch from ArXiv.
 [2025-12-24 02:25:01] Successfully processed: Point What You Mean: Visually Grounded Instruction Policy
+[2025-12-25 02:27:32] Successfully processed: AprielGuard
