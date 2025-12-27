@@ -11,3 +11,4 @@
 [2025-12-24 02:25:01] Successfully processed: Point What You Mean: Visually Grounded Instruction Policy
 [2025-12-25 02:27:32] Successfully processed: AprielGuard
 [2025-12-26 02:26:37] Successfully processed: Beyond Context: Large Language Models Failure to Grasp Users Intent
+[2025-12-27 02:24:02] Successfully processed: LightTact: A Visual-Tactile Fingertip Sensor for Deformation-Independent Contact Sensing
