@@ -13,3 +13,4 @@
 [2025-12-26 02:26:37] Successfully processed: Beyond Context: Large Language Models Failure to Grasp Users Intent
 [2025-12-27 02:24:02] Successfully processed: LightTact: A Visual-Tactile Fingertip Sensor for Deformation-Independent Contact Sensing
 [2025-12-28 02:39:32] Successfully processed: Learning Generalizable Hand-Object Tracking from Synthetic Demonstrations
+[2025-12-29 02:37:42] Successfully processed: Morality is Contextual: Learning Interpretable Moral Contexts from Human Data with Probabilistic Clustering and Large Language Models
