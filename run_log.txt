@@ -16,3 +16,4 @@
 [2025-12-29 02:37:42] Successfully processed: Morality is Contextual: Learning Interpretable Moral Contexts from Human Data with Probabilistic Clustering and Large Language Models
 [2025-12-30 02:28:38] Successfully processed: Emergence of Human to Robot Transfer in Vision-Language-Action Models
 [2025-12-31 02:28:05] Successfully processed: AnyMS: Bottom-up Attention Decoupling for Layout-guided and Training-free Multi-subject Customization
+[2026-01-01 02:40:56] Successfully processed: Foundation models on the bridge: Semantic hazard detection and safety maneuvers for maritime autonomy with vision-language models
