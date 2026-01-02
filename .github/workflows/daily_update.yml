@@ -1,39 +1,41 @@
-name: Daily Research Fetcher
+name: Human-Like Research Bot
 
 on:
   schedule:
-    - cron: '30 0 * * *' # Runs daily
+    # Run every 6 hours to check if we should "work"
+    # (Don't worry, the script handles the logic so it won't commit 4x a day unless we want it to)
+    - cron: '0 */6 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  analyze-paper:
+  simulate-dev:
     runs-on: ubuntu-latest
     
     steps:
       - name: Checkout Code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # Fetch full history for correct git operations
 
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.9'
+          python-version: '3.10'
 
       - name: Install Dependencies
         run: |
           pip install requests pypdf google-genai
 
-      - name: Run AI Analyst
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-        run: python research.py
-
-      - name: Commit and Push
+      - name: Configure Git Identity
+        # CHANGE THESE TO YOUR DETAILS!
         run: |
           git config --global user.name "Muszic"
           git config --global user.email "allaboutsangit@gmail.com"
-          git add papers/ run_log.txt
-          git commit -m "Daily Research Update" || echo "No changes"
-          git push
+
+      - name: Run Decision Engine
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python research.py
