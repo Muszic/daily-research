@@ -19,3 +19,4 @@
 [2026-01-01 02:40:56] Successfully processed: Foundation models on the bridge: Semantic hazard detection and safety maneuvers for maritime autonomy with vision-language models
 [2026-01-02 02:30:48] Successfully processed: Paragraph Segmentation Revisited: Towards a Standard Task for Structuring Speech
 [2026-01-03 06:31:10] Processed: Decoupling Adaptive Control in TeaStore
+[2026-01-04 01:52:16] Processed: Geometric Multi-Session Map Merging with Learned Local Descriptors
