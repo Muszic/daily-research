@@ -21,3 +21,4 @@
 [2026-01-03 06:31:10] Processed: Decoupling Adaptive Control in TeaStore
 [2026-01-04 01:52:16] Processed: Geometric Multi-Session Map Merging with Learned Local Descriptors
 [2026-01-05 01:52:06] Processed: From Trial to Deployment: A SEM Analysis of Traveler Adoptions to Fully Operational Autonomous Taxis
+[2026-01-06 18:31:23] Processed: SingingBot: An Avatar-Driven System for Robotic Face Singing Performance
