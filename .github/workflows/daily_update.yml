@@ -2,9 +2,8 @@ name: Human-Like Research Bot
 
 on:
   schedule:
-    # Run every 6 hours to check if we should "work"
-    # (Don't worry, the script handles the logic so it won't commit 4x a day unless we want it to)
-    - cron: '0 */6 * * *'
+    # Run ONLY once a day at 08:00 UTC (1:30 PM IST)
+    - cron: '0 8 * * *'
   workflow_dispatch:
 
 permissions:
@@ -18,7 +17,7 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0 # Fetch full history for correct git operations
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -30,8 +29,8 @@ jobs:
           pip install requests pypdf google-genai
 
       - name: Configure Git Identity
-        # CHANGE THESE TO YOUR DETAILS!
         run: |
+          # REPLACE WITH YOUR DETAILS
           git config --global user.name "Muszic"
           git config --global user.email "allaboutsangit@gmail.com"
 
