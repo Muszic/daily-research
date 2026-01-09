@@ -7,7 +7,7 @@ import urllib.request
 import xml.etree.ElementTree as ET
 import subprocess
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from google import genai 
 from pypdf import PdfReader
 
@@ -20,41 +20,55 @@ CATEGORY_NAMES = {
 }
 
 # --- DECISION ENGINE ---
-# This controls how "human" the bot acts
 def decision_engine():
     """
-    Decides how many papers to process today based on random probability.
-    Returns: Integer (number of commits to make)
+    Decides activity based on a sparse, random pattern.
     """
-    # 1. Check if we already worked today (to avoid accidental 4x/day runs from cron)
-    # We check the log file for today's date
-    today = datetime.now().strftime("%Y-%m-%d")
+    today_str = datetime.now().strftime("%Y-%m-%d")
+    
+    # Check when we last worked
+    last_run_date = ""
     if os.path.exists("run_log.txt"):
         with open("run_log.txt", "r") as f:
-            if today in f.read() and random.random() > 0.1: 
-                # If we already worked today, 90% chance to stop (unless we are in a 'crunch' frenzy)
-                print("Already worked today. Taking a break.")
+            lines = f.readlines()
+            if lines:
+                # Extract date from last line "[2025-01-09 14:00:00]..."
+                last_line = lines[-1]
+                match = re.search(r"\[(\d{4}-\d{2}-\d{2})", last_line)
+                if match:
+                    last_run_date = match.group(1)
+
+    # 1. FORCED REST: If we worked yesterday, 40% chance to force a skip today
+    # (This creates the 1-day gaps)
+    if last_run_date:
+        last_date_obj = datetime.strptime(last_run_date, "%Y-%m-%d")
+        days_since_last = (datetime.now() - last_date_obj).days
+        
+        if days_since_last == 1:
+            if random.random() < 0.40:
+                print("Taking a rest day after working yesterday.")
                 return 0
 
-    # 2. Roll the Dice (0.0 to 1.0)
+    # 2. Main Dice Roll (0.0 to 1.0)
     roll = random.random()
     
-    if roll < 0.25:
-        # 25% chance to be "Lazy" (Skip day)
-        print("Dice Roll: Lazy Day. Skipping.")
+    # 50% chance to SKIP completely (create gaps)
+    if roll < 0.50:
+        print(f"Dice Roll ({roll:.2f}): Lazy Day. Skipping.")
         return 0
-    elif roll < 0.85:
-        # 60% chance to be "Consistent" (1 commit)
-        print("Dice Roll: Normal Work Day.")
+        
+    # 30% chance for NORMAL consistency (1 commit)
+    elif roll < 0.80:
+        print(f"Dice Roll ({roll:.2f}): Normal Work Day.")
         return 1
+        
+    # 20% chance for BURST (2-5 commits)
     else:
-        # 15% chance to be "Productive" (2-4 commits)
-        # Randomly choose between 2, 3, or 4
-        burst = random.randint(2, 4)
-        print(f"Dice Roll: CRUNCH MODE! Doing {burst} commits.")
+        burst = random.randint(2, 5)
+        print(f"Dice Roll ({roll:.2f}): CRUNCH MODE! Doing {burst} commits.")
         return burst
 
-# --- CORE FUNCTIONS ---
+# --- CORE FUNCTIONS (unchanged) ---
 
 API_KEY = os.environ.get("GEMINI_API_KEY")
 client = None
@@ -62,21 +76,12 @@ if API_KEY:
     client = genai.Client(api_key=API_KEY)
 
 def git_commit_and_push(paper_title):
-    """
-    Executes git commands directly from Python to create a commit history.
-    """
     try:
-        # Stage all changes (new papers + log)
         subprocess.run(["git", "add", "."], check=True)
-        
-        # Commit with a meaningful message
         commit_message = f"Added notes for: {paper_title[:30]}..."
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
-        
-        # Push immediately
         subprocess.run(["git", "push"], check=True)
         print("Git push successful.")
-        
     except subprocess.CalledProcessError as e:
         print(f"Git Error: {e}")
 
@@ -88,7 +93,6 @@ def log_run(message):
 def fetch_paper_data():
     category = random.choice(CATEGORIES)
     url = f'http://export.arxiv.org/api/query?search_query=cat:{category}&start=0&max_results=50&sortBy=submittedDate&sortOrder=descending'
-    
     try:
         with urllib.request.urlopen(url) as response:
             root = ET.fromstring(response.read())
@@ -102,7 +106,6 @@ def process_one_paper():
     entries, category = fetch_paper_data()
     if not entries: return False
 
-    # Try to find a unique paper
     random.shuffle(entries)
     for entry in entries:
         title = entry.find('{http://www.w3.org/2005/Atom}title').text.replace('\n', ' ').strip()
@@ -111,11 +114,9 @@ def process_one_paper():
         filename = f"papers/{date}_{safe_title}.md"
         
         if not os.path.exists(filename):
-            # Found unique paper, process it
             pdf_link = entry.find('{http://www.w3.org/2005/Atom}id').text.replace("/abs/", "/pdf/") + ".pdf"
             link = entry.find('{http://www.w3.org/2005/Atom}id').text
             
-            # Extract PDF
             text = ""
             try:
                 headers = {'User-Agent': 'Mozilla/5.0'}
@@ -125,7 +126,6 @@ def process_one_paper():
             except:
                 text = "PDF Extraction failed."
 
-            # Generate AI Summary
             summary = "AI Summary Unavailable."
             if client and len(text) > 500:
                 try:
@@ -135,14 +135,11 @@ def process_one_paper():
                 except Exception as e:
                     summary = f"Gemini Error: {e}"
             
-            # Save File
             if not os.path.exists("papers"): os.makedirs("papers")
             content = f"# {title}\n\n- **Category:** {CATEGORY_NAMES.get(category, category)}\n- **Date:** {date}\n- **Link:** {link}\n\n---\n{summary}"
             with open(filename, "w", encoding='utf-8') as f: f.write(content)
             
             log_run(f"Processed: {title}")
-            
-            # COMMIT THIS INDIVIDUAL PAPER
             git_commit_and_push(title)
             return True
             
@@ -158,12 +155,13 @@ if __name__ == "__main__":
             success = process_one_paper()
             if success:
                 print(f"Commit {i+1}/{commits_today} done.")
-                # Sleep between bursts so timestamps aren't identical (looks more human)
                 if i < commits_today - 1:
-                    wait_time = random.randint(30, 120)
-                    print(f"Taking a coffee break for {wait_time} seconds...")
+                    wait_time = random.randint(120, 600) # Wait 2-10 mins between bursts
+                    print(f"Thinking for {wait_time} seconds...")
                     time.sleep(wait_time)
             else:
                 print("Could not find new paper or error occurred.")
     else:
-        log_run("Skipped run (Decision Engine).")
+        # We purposely do NOT write to run_log.txt on skip days 
+        # so the 'last_run_date' logic sees a gap next time.
+        print("Skipped run (Decision Engine).")
