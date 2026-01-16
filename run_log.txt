@@ -26,3 +26,4 @@
 [2026-01-08 06:34:03] Processed: Evaluating Small Decoder-Only Language Models for Grammar Correction and Text Simplification
 [2026-01-09 01:44:05] Processed: Why Commodity WiFi Sensors Fail at Multi-Person Gait Identification: A Systematic Analysis Using ESP32
 [2026-01-13 08:21:35] Processed: Mon3tr: Monocular 3D Telepresence with Pre-built Gaussian Avatars as Amortization
+[2026-01-16 08:20:53] Processed: A Risk-Stratified Benchmark Dataset for Bad Randomness (SWC-120) Vulnerabilities in Ethereum Smart Contracts
