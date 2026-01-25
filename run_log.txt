@@ -36,3 +36,4 @@
 [2026-01-19 08:39:47] Processed: CoCoPlan: Adaptive Coordination and Communication for Multi-robot Systems in Dynamic and Unknown Environments
 [2026-01-21 08:22:39] Processed: Kakugo: Distillation of Low-Resource Languages into Small Language Models
 [2026-01-21 08:24:59] Processed: APEX-Agents
+[2026-01-25 08:19:25] Processed: HyperAlign: Hypernetwork for Efficient Test-Time Alignment of Diffusion Models
