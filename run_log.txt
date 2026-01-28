@@ -37,3 +37,4 @@
 [2026-01-21 08:22:39] Processed: Kakugo: Distillation of Low-Resource Languages into Small Language Models
 [2026-01-21 08:24:59] Processed: APEX-Agents
 [2026-01-25 08:19:25] Processed: HyperAlign: Hypernetwork for Efficient Test-Time Alignment of Diffusion Models
+[2026-01-28 08:22:31] Processed: From Scattered to Structured: A Vision for Automating Architectural Knowledge Management
