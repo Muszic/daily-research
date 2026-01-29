@@ -38,3 +38,4 @@
 [2026-01-21 08:24:59] Processed: APEX-Agents
 [2026-01-25 08:19:25] Processed: HyperAlign: Hypernetwork for Efficient Test-Time Alignment of Diffusion Models
 [2026-01-28 08:22:31] Processed: From Scattered to Structured: A Vision for Automating Architectural Knowledge Management
+[2026-01-29 08:30:28] Processed: Whitespaces Don't Lie: Feature-Driven and Embedding-Based Approaches for Detecting Machine-Generated Code
