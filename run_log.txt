@@ -43,3 +43,4 @@
 [2026-01-30 08:33:05] Processed: ReactEMG Stroke: Healthy-to-Stroke Few-shot Adaptation for sEMG-Based Intent Detection
 [2026-01-30 08:38:06] Processed: MeCo: Enhancing LLM-Empowered Multi-Robot Collaboration via Similar Task Memoization
 [2026-01-30 08:48:20] Processed: A Federated and Parameter-Efficient Framework for Large Language Model Training in Medicine
+[2026-02-01 08:23:29] Processed: SERA: Soft-Verified Efficient Repository Agents
