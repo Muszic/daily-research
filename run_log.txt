@@ -45,3 +45,4 @@
 [2026-01-30 08:48:20] Processed: A Federated and Parameter-Efficient Framework for Large Language Model Training in Medicine
 [2026-02-01 08:23:29] Processed: SERA: Soft-Verified Efficient Repository Agents
 [2026-02-02 08:34:44] Processed: ExplainerPFN: Towards tabular foundation models for model-free zero-shot feature importance estimations
+[2026-02-06 08:33:28] Processed: Modelling Pedestrian Behaviour in Autonomous Vehicle Encounters Using Naturalistic Dataset
