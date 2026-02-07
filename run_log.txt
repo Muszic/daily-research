@@ -46,3 +46,4 @@
 [2026-02-01 08:23:29] Processed: SERA: Soft-Verified Efficient Repository Agents
 [2026-02-02 08:34:44] Processed: ExplainerPFN: Towards tabular foundation models for model-free zero-shot feature importance estimations
 [2026-02-06 08:33:28] Processed: Modelling Pedestrian Behaviour in Autonomous Vehicle Encounters Using Naturalistic Dataset
+[2026-02-07 08:22:02] Processed: Scalable and General Whole-Body Control for Cross-Humanoid Locomotion
