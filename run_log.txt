@@ -49,3 +49,4 @@
 [2026-02-07 08:22:02] Processed: Scalable and General Whole-Body Control for Cross-Humanoid Locomotion
 [2026-02-11 08:39:14] Processed: ZK-Rollup for Hyperledger Fabric: Architecture and Performance Evaluation
 [2026-02-12 08:37:43] Processed: ReSPEC: A Framework for Online Multispectral Sensor Reconfiguration in Dynamic Environments
+[2026-02-12 08:46:26] Processed: From Circuits to Dynamics: Understanding and Stabilizing Failure in 3D Diffusion Transformers
