@@ -54,3 +54,4 @@
 [2026-02-13 08:34:43] Processed: Consistency Meets Verification: Enhancing Test Generation Quality in Large Language Models Without Ground-Truth Solutions
 [2026-02-13 08:43:29] Processed: Energy-Aware Spike Budgeting for Continual Learning in Spiking Neural Networks for Neuromorphic Vision
 [2026-02-13 08:49:35] Processed: DMind-3: A Sovereign Edge--Local--Cloud AI System with Controlled Deliberation and Correction-Based Tuning for Safe, Low-Latency Transaction Execution
+[2026-02-13 08:58:29] Processed: A Rule-based Computational Model for Gaidhlig Morphology
