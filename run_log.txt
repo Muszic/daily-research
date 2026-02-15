@@ -56,3 +56,4 @@
 [2026-02-13 08:49:35] Processed: DMind-3: A Sovereign Edge--Local--Cloud AI System with Controlled Deliberation and Correction-Based Tuning for Safe, Low-Latency Transaction Execution
 [2026-02-13 08:58:29] Processed: A Rule-based Computational Model for Gaidhlig Morphology
 [2026-02-13 09:07:23] Processed: IU-GUARD: Privacy-Preserving Spectrum Coordination for Incumbent Users under Dynamic Spectrum Sharing
+[2026-02-15 08:24:18] Processed: Performance Antipatterns: Angel or Devil for Power Consumption?
