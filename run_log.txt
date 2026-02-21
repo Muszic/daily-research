@@ -59,3 +59,4 @@
 [2026-02-15 08:24:18] Processed: Performance Antipatterns: Angel or Devil for Power Consumption?
 [2026-02-17 08:37:09] Processed: Analysis of Asset Administration Shell-based Negotiation Processes for Scaling Applications
 [2026-02-19 08:35:13] Processed: Saliency-Aware Multi-Route Thinking: Revisiting Vision-Language Reasoning
+[2026-02-21 08:21:47] Processed: Improving LLM-based Recommendation with Self-Hard Negatives from Intermediate Layers
