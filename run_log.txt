@@ -61,3 +61,4 @@
 [2026-02-19 08:35:13] Processed: Saliency-Aware Multi-Route Thinking: Revisiting Vision-Language Reasoning
 [2026-02-21 08:21:47] Processed: Improving LLM-based Recommendation with Self-Hard Negatives from Intermediate Layers
 [2026-02-21 08:28:29] Processed: Fine-Grained Uncertainty Quantification for Long-Form Language Model Outputs: A Comparative Study
+[2026-02-23 08:40:26] Processed: Understanding Unreliability of Steering Vectors in Language Models: Geometric Predictors and the Limits of Linear Approximations
