@@ -65,3 +65,4 @@
 [2026-02-25 08:39:02] Processed: UDVideoQA: A Traffic Video Question Answering Dataset for Multi-Object Spatio-Temporal Reasoning in Urban Dynamics
 [2026-02-25 08:49:08] Processed: MUSE: Harnessing Precise and Diverse Semantics for Few-Shot Whole Slide Image Classification
 [2026-02-25 08:58:35] Processed: Mask-HybridGNet: Graph-based segmentation with emergent anatomical correspondence from pixel-level supervision
+[2026-02-25 09:02:21] Processed: Generative Pseudo-Labeling for Pre-Ranking with LLMs
