@@ -67,3 +67,4 @@
 [2026-02-25 08:58:35] Processed: Mask-HybridGNet: Graph-based segmentation with emergent anatomical correspondence from pixel-level supervision
 [2026-02-25 09:02:21] Processed: Generative Pseudo-Labeling for Pre-Ranking with LLMs
 [2026-02-26 08:37:39] Processed: IndicIFEval: A Benchmark for Verifiable Instruction-Following Evaluation in 14 Indic Languages
+[2026-02-27 08:33:12] Processed: Test-Time Scaling with Diffusion Language Models via Reward-Guided Stitching
