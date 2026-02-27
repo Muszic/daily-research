@@ -71,3 +71,4 @@
 [2026-02-27 08:36:33] Processed: Considering Perspectives for Automated Driving Ethics: Collective Risk in Vehicular Motion Planning
 [2026-02-27 08:46:17] Processed: Hierarchical Trajectory Planning of Floating-Base Multi-Link Robot for Maneuvering in Confined Environments
 [2026-02-27 08:55:46] Processed: RhythmBERT: A Self-Supervised Language Model Based on Latent Representations of ECG Waveforms for Heart Disease Detection
+[2026-02-27 09:00:18] Processed: Self-Purification Mitigates Backdoors in Multimodal Diffusion Language Models
