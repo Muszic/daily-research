@@ -74,3 +74,4 @@
 [2026-02-27 09:00:18] Processed: Self-Purification Mitigates Backdoors in Multimodal Diffusion Language Models
 [2026-03-02 08:35:22] Processed: Geometry-based pneumatic actuators for soft robotics
 [2026-03-03 08:31:46] Processed: CausalWrap: Model-Agnostic Causal Constraint Wrappers for Tabular Synthetic Data
+[2026-03-05 08:31:51] Processed: Scalable Evaluation of the Realism of Synthetic Environmental Augmentations in Images
