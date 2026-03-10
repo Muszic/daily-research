@@ -76,3 +76,4 @@
 [2026-03-03 08:31:46] Processed: CausalWrap: Model-Agnostic Causal Constraint Wrappers for Tabular Synthetic Data
 [2026-03-05 08:31:51] Processed: Scalable Evaluation of the Realism of Synthetic Environmental Augmentations in Images
 [2026-03-06 08:29:14] Processed: Impact of 5G SA Logical Vulnerabilities on UAV Communications: Threat Models and Testbed Evaluation
+[2026-03-10 08:32:23] Processed: EndoSERV: A Vision-based Endoluminal Robot Navigation System
