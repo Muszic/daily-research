@@ -78,3 +78,4 @@
 [2026-03-06 08:29:14] Processed: Impact of 5G SA Logical Vulnerabilities on UAV Communications: Threat Models and Testbed Evaluation
 [2026-03-10 08:32:23] Processed: EndoSERV: A Vision-based Endoluminal Robot Navigation System
 [2026-03-11 08:31:58] Processed: MissBench: Benchmarking Multimodal Affective Analysis under Imbalanced Missing Modalities
+[2026-03-15 08:28:19] Processed: Continual Learning with Vision-Language Models via Semantic-Geometry Preservation
