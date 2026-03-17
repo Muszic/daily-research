@@ -83,3 +83,4 @@
 [2026-03-16 08:53:31] Processed: Why Neural Structural Obfuscation Can't Kill White-Box Watermarks for Good!
 [2026-03-17 08:42:15] Processed: AEX: Non-Intrusive Multi-Hop Attestation and Provenance for LLM APIs
 [2026-03-17 08:46:50] Processed: SFCoT: Safer Chain-of-Thought via Active Safety Evaluation and Calibration
+[2026-03-17 08:56:06] Processed: Physics-Informed Neural Systems for the Simulation of EUV Electromagnetic Wave Diffraction from a Lithography Mask
