@@ -81,3 +81,4 @@
 [2026-03-15 08:28:19] Processed: Continual Learning with Vision-Language Models via Semantic-Geometry Preservation
 [2026-03-16 08:47:22] Processed: Streaming REST APIs for Large Financial Transaction Exports from Relational Databases
 [2026-03-16 08:53:31] Processed: Why Neural Structural Obfuscation Can't Kill White-Box Watermarks for Good!
+[2026-03-17 08:42:15] Processed: AEX: Non-Intrusive Multi-Hop Attestation and Provenance for LLM APIs
