@@ -86,3 +86,4 @@
 [2026-03-17 08:56:06] Processed: Physics-Informed Neural Systems for the Simulation of EUV Electromagnetic Wave Diffraction from a Lithography Mask
 [2026-03-17 09:01:16] Processed: HALO:Closing Sim-to-Real Gap for Heavy-loaded Humanoid Agile Motion Skills via Differentiable Simulation
 [2026-03-17 09:03:56] Processed: Directional Embedding Smoothing for Robust Vision Language Models
+[2026-03-21 08:23:00] Processed: Maximum-Entropy Exploration with Future State-Action Visitation Measures
