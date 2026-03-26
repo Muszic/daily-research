@@ -90,3 +90,4 @@
 [2026-03-23 08:45:42] Processed: Can Large Multimodal Models Inspect Buildings? A Hierarchical Benchmark for Structural Pathology Reasoning
 [2026-03-23 08:49:31] Processed: Evaluating Evidence Grounding Under User Pressure in Instruction-Tuned Language Models
 [2026-03-26 08:44:43] Processed: A Sensorless, Inherently Compliant Anthropomorphic Musculoskeletal Hand Driven by Electrohydraulic Actuators
+[2026-03-26 08:54:31] Processed: Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens
