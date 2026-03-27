@@ -93,3 +93,4 @@
 [2026-03-26 08:54:31] Processed: Le MuMo JEPA: Multi-Modal Self-Supervised Representation Learning with Learnable Fusion Tokens
 [2026-03-26 08:57:48] Processed: Goal-Oriented Reactive Simulation for Closed-Loop Trajectory Prediction
 [2026-03-26 09:05:14] Processed: Optimizing Multilingual LLMs via Federated Learning: A Study of Client Language Composition
+[2026-03-27 08:42:36] Processed: Bridging the Interpretation Gap in Accessibility Testing: Empathetic and Legal-Aware Bug Report Generation via Large Language Models
