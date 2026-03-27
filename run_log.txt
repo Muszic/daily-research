@@ -94,3 +94,4 @@
 [2026-03-26 08:57:48] Processed: Goal-Oriented Reactive Simulation for Closed-Loop Trajectory Prediction
 [2026-03-26 09:05:14] Processed: Optimizing Multilingual LLMs via Federated Learning: A Study of Client Language Composition
 [2026-03-27 08:42:36] Processed: Bridging the Interpretation Gap in Accessibility Testing: Empathetic and Legal-Aware Bug Report Generation via Large Language Models
+[2026-03-27 08:50:52] Processed: Beyond Detection: Rethinking Education in the Age of AI-writing
