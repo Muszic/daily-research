@@ -103,3 +103,4 @@
 [2026-04-06 09:11:43] Processed: AI-Assisted Unit Test Writing and Test-Driven Code Refactoring: A Case Study
 [2026-04-06 09:21:38] Processed: Verbalizing LLMs' assumptions to explain and control sycophancy
 [2026-04-06 09:30:25] Processed: SkillRT: Compiling Skills for Efficient Execution Everywhere
+[2026-04-06 09:39:20] Processed: A Flow Matching Framework for Soft-Robot Inverse Dynamics
