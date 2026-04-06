@@ -101,3 +101,4 @@
 [2026-04-04 08:32:32] Processed: PrivHAR-Bench: A Graduated Privacy Benchmark Dataset for Video-Based Action Recognition
 [2026-04-06 09:01:36] Processed: Elastomeric Strain Limitation for Design of Soft Pneumatic Actuators
 [2026-04-06 09:11:43] Processed: AI-Assisted Unit Test Writing and Test-Driven Code Refactoring: A Case Study
+[2026-04-06 09:21:38] Processed: Verbalizing LLMs' assumptions to explain and control sycophancy
