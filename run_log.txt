@@ -107,3 +107,4 @@
 [2026-04-08 08:53:58] Processed: T2T: Captioning Smartphone Activities Using Mobile Traffic
 [2026-04-09 08:59:32] Processed: CODESTRUCT: Code Agents over Structured Action Spaces
 [2026-04-10 09:00:51] Processed: SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds
+[2026-04-13 09:29:40] Processed: NyayaMind- A Framework for Transparent Legal Reasoning and Judgment Prediction in the Indian Legal System
