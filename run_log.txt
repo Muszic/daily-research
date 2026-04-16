@@ -109,3 +109,4 @@
 [2026-04-10 09:00:51] Processed: SIM1: Physics-Aligned Simulator as Zero-Shot Data Scaler in Deformable Worlds
 [2026-04-13 09:29:40] Processed: NyayaMind- A Framework for Transparent Legal Reasoning and Judgment Prediction in the Indian Legal System
 [2026-04-16 09:10:24] Processed: SIR-Bench: Evaluating Investigation Depth in Security Incident Response Agents
+[2026-04-16 09:14:42] Processed: Design and Behavior of Sparse Mixture-of-Experts Layers in CNN-based Semantic Segmentation
