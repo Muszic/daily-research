@@ -114,3 +114,4 @@
 [2026-04-18 08:40:17] Processed: World-Value-Action Model: Implicit Planning for Vision-Language-Action Systems
 [2026-04-18 08:43:40] Processed: Towards Personalizing Secure Programming Education with LLM-Injected Vulnerabilities
 [2026-04-18 08:46:36] Processed: Evaluating LLMs Code Reasoning Under Real-World Context
+[2026-04-18 08:51:26] Processed: An Axiomatic Benchmark for Evaluation of Scientific Novelty Metrics
