@@ -115,3 +115,4 @@
 [2026-04-18 08:43:40] Processed: Towards Personalizing Secure Programming Education with LLM-Injected Vulnerabilities
 [2026-04-18 08:46:36] Processed: Evaluating LLMs Code Reasoning Under Real-World Context
 [2026-04-18 08:51:26] Processed: An Axiomatic Benchmark for Evaluation of Scientific Novelty Metrics
+[2026-04-18 08:54:52] Processed: MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation
