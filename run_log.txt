@@ -122,3 +122,4 @@
 [2026-04-29 09:58:53] Processed: DenseScout: Algorithm-System Co-design for Budgeted Tiny Object Selection on Edge Platforms
 [2026-04-29 10:02:39] Processed: Libra-VLA: Achieving Learning Equilibrium via Asynchronous Coarse-to-Fine Dual-System
 [2026-04-29 10:08:29] Processed: Benchmarking Layout-Guided Diffusion Models through Unified Semantic-Spatial Evaluation in Closed and Open Settings
+[2026-04-30 09:59:39] Processed: AGEL-Comp: A Neuro-Symbolic Framework for Compositional Generalization in Interactive Agents
