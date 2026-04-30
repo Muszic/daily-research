@@ -124,3 +124,4 @@
 [2026-04-29 10:08:29] Processed: Benchmarking Layout-Guided Diffusion Models through Unified Semantic-Spatial Evaluation in Closed and Open Settings
 [2026-04-30 09:59:39] Processed: AGEL-Comp: A Neuro-Symbolic Framework for Compositional Generalization in Interactive Agents
 [2026-04-30 10:02:47] Processed: ClassEval-Pro: A Cross-Domain Benchmark for Class-Level Code Generation
+[2026-04-30 10:07:26] Processed: GEGLU-Transformer for IMU-to-EMG Estimation with Few-Shot Adaptation
