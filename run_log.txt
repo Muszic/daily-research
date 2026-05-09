@@ -127,3 +127,4 @@
 [2026-04-30 10:07:26] Processed: GEGLU-Transformer for IMU-to-EMG Estimation with Few-Shot Adaptation
 [2026-05-03 09:15:49] Processed: Stochastic Entanglement of Deterministic Origami Tentacles For Universal Robotic Gripping
 [2026-05-03 09:23:31] Processed: Models Recall What They Violate: Constraint Adherence in Multi-Turn LLM Ideation
+[2026-05-09 09:10:56] Processed: From Token Lists to Graph Motifs: Weisfeiler-Lehman Analysis of Sparse Autoencoder Features
