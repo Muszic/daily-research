@@ -131,3 +131,4 @@
 [2026-05-11 10:54:37] Processed: Can LLMs Solve Science or Just Write Code? Evaluating Quantum Solver Generation
 [2026-05-11 11:01:12] Processed: SimCT: Recovering Lost Supervision for Cross-Tokenizer On-Policy Distillation
 [2026-05-11 11:06:21] Processed: BeeVe: Unsupervised Acoustic State Discovery in Honey Bee Buzzing
+[2026-05-11 11:11:17] Processed: Statistical inference with belief functions: A survey
