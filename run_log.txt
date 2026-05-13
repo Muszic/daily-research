@@ -135,3 +135,4 @@
 [2026-05-13 10:14:43] Processed: From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation
 [2026-05-13 10:19:38] Processed: Fast Image Super-Resolution via Consistency Rectified Flow
 [2026-05-13 10:22:30] Processed: Reconnecting Fragmented Citation Networks with Semantic Augmentation
+[2026-05-13 10:31:43] Processed: Fill the GAP: A Granular Alignment Paradigm for Visual Reasoning in Multimodal Large Language Models
