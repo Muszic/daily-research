@@ -133,3 +133,4 @@
 [2026-05-11 11:06:21] Processed: BeeVe: Unsupervised Acoustic State Discovery in Honey Bee Buzzing
 [2026-05-11 11:11:17] Processed: Statistical inference with belief functions: A survey
 [2026-05-13 10:14:43] Processed: From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation
+[2026-05-13 10:19:38] Processed: Fast Image Super-Resolution via Consistency Rectified Flow
