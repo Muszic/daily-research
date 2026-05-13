@@ -132,3 +132,4 @@
 [2026-05-11 11:01:12] Processed: SimCT: Recovering Lost Supervision for Cross-Tokenizer On-Policy Distillation
 [2026-05-11 11:06:21] Processed: BeeVe: Unsupervised Acoustic State Discovery in Honey Bee Buzzing
 [2026-05-11 11:11:17] Processed: Statistical inference with belief functions: A survey
+[2026-05-13 10:14:43] Processed: From Imagined Futures to Executable Actions: Mixture of Latent Actions for Robot Manipulation
