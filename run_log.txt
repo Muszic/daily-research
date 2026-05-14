@@ -137,3 +137,4 @@
 [2026-05-13 10:22:30] Processed: Reconnecting Fragmented Citation Networks with Semantic Augmentation
 [2026-05-13 10:31:43] Processed: Fill the GAP: A Granular Alignment Paradigm for Visual Reasoning in Multimodal Large Language Models
 [2026-05-13 10:40:49] Processed: The Death Spiral of Open Source Projects: A Post-Mortem Analysis of Pull Request Workflow Dynamics
+[2026-05-14 10:07:52] Processed: Many-Shot CoT-ICL: Making In-Context Learning Truly Learn
