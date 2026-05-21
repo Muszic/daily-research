@@ -140,3 +140,4 @@
 [2026-05-14 10:07:52] Processed: Many-Shot CoT-ICL: Making In-Context Learning Truly Learn
 [2026-05-19 10:55:11] Processed: A Readiness-Driven Runtime for Pipeline-Parallel Training under Runtime Variability
 [2026-05-19 10:59:49] Processed: Learning Quantifiable Visual Explanations Without Ground-Truth
+[2026-05-21 11:00:01] Processed: Fine-grained Claim-level RAG Benchmark for Law
