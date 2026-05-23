@@ -144,3 +144,4 @@
 [2026-05-21 11:09:10] Processed: A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents
 [2026-05-23 09:44:44] Processed: Mind the Gaps: Multi-Robot Feedback-Driven Ergodic Coverage in Unknown Environments
 [2026-05-23 09:50:00] Processed: Beyond the Org Chart: AI and the Transformation of Invisible Work
+[2026-05-23 09:58:31] Processed: Lumberjack: Better Differentially Private Random Forests through Heavy Hitter Detection in Trees
