@@ -142,3 +142,4 @@
 [2026-05-19 10:59:49] Processed: Learning Quantifiable Visual Explanations Without Ground-Truth
 [2026-05-21 11:00:01] Processed: Fine-grained Claim-level RAG Benchmark for Law
 [2026-05-21 11:09:10] Processed: A Methodology for Selecting and Composing Runtime Architecture Patterns for Production LLM Agents
+[2026-05-23 09:44:44] Processed: Mind the Gaps: Multi-Robot Feedback-Driven Ergodic Coverage in Unknown Environments
