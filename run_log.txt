@@ -153,3 +153,4 @@
 [2026-06-04 10:56:37] Processed: Learning What Not to Impute: An Uncertainty-Aware Diffusion Framework for Meaningful Missingness
 [2026-06-06 09:55:59] Processed: Metamorphic Testing with the Rashomon Set: Explanation Faithfulness in Machine Learning
 [2026-06-07 10:22:25] Processed: ProSarc: Prosody-Aware Sarcasm Recognition Framework via Temporal Prosodic Incongruity
+[2026-06-07 10:26:27] Processed: Unsupervised Skill Discovery for Agentic Data Analysis
