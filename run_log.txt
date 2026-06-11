@@ -157,3 +157,4 @@
 [2026-06-07 10:35:28] Processed: From Attack Simulation to SIEM Rule: Deterministic Detection-as-Code Synthesis with Probe-Level Traceability
 [2026-06-07 10:45:29] Processed: Flow-based Policy Adaptation without Policy Updates
 [2026-06-07 10:51:19] Processed: Policy-Compliant Cloud Storage Systems
+[2026-06-11 12:03:54] Processed: KinematicRL: A Sim-to-Real Reinforcement Learning Framework For Social Navigation With Kinodynamic Feasibility
