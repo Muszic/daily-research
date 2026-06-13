@@ -159,3 +159,4 @@
 [2026-06-07 10:51:19] Processed: Policy-Compliant Cloud Storage Systems
 [2026-06-11 12:03:54] Processed: KinematicRL: A Sim-to-Real Reinforcement Learning Framework For Social Navigation With Kinodynamic Feasibility
 [2026-06-11 12:06:43] Processed: Existential Indifference: Self-Nonpreservation as a Necessary Architectural Condition for Aligned Superintelligence (or: The Suicidal AI)
+[2026-06-13 10:22:27] Processed: Understanding and Detecting Scalability Faults in Large-Scale Distributed Systems
