@@ -161,3 +161,4 @@
 [2026-06-11 12:06:43] Processed: Existential Indifference: Self-Nonpreservation as a Necessary Architectural Condition for Aligned Superintelligence (or: The Suicidal AI)
 [2026-06-13 10:22:27] Processed: Understanding and Detecting Scalability Faults in Large-Scale Distributed Systems
 [2026-06-20 10:27:42] Processed: Increasing Resilience of Continuum Robots via Motion Planning Algorithms
+[2026-06-20 10:37:41] Processed: Clusters are All You Need: Pre-Training the Tsetlin Machine with Semantic Clusters from Language Models for Interpretability
