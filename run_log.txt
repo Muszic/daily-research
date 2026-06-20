@@ -162,3 +162,4 @@
 [2026-06-13 10:22:27] Processed: Understanding and Detecting Scalability Faults in Large-Scale Distributed Systems
 [2026-06-20 10:27:42] Processed: Increasing Resilience of Continuum Robots via Motion Planning Algorithms
 [2026-06-20 10:37:41] Processed: Clusters are All You Need: Pre-Training the Tsetlin Machine with Semantic Clusters from Language Models for Interpretability
+[2026-06-20 10:47:47] Processed: U$^2$Mamba: A Two-level Nested U-structure Mamba for Salient Object Detection
