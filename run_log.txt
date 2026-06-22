@@ -166,3 +166,4 @@
 [2026-06-22 13:28:14] Processed: Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes
 [2026-06-22 13:37:15] Processed: Apparent Psychological Profiles of Large Language Models are Largely a Measurement Artifact
 [2026-06-22 13:45:27] Processed: Thermodynamic Measure of Intelligence
+[2026-06-22 13:49:44] Processed: Finetuning Vision-Language-Action Models Requires Fewer Layers Than You Think
