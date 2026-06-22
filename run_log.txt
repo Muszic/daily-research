@@ -165,3 +165,4 @@
 [2026-06-20 10:47:47] Processed: U$^2$Mamba: A Two-level Nested U-structure Mamba for Salient Object Detection
 [2026-06-22 13:28:14] Processed: Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes
 [2026-06-22 13:37:15] Processed: Apparent Psychological Profiles of Large Language Models are Largely a Measurement Artifact
+[2026-06-22 13:45:27] Processed: Thermodynamic Measure of Intelligence
