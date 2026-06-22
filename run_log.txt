@@ -163,3 +163,4 @@
 [2026-06-20 10:27:42] Processed: Increasing Resilience of Continuum Robots via Motion Planning Algorithms
 [2026-06-20 10:37:41] Processed: Clusters are All You Need: Pre-Training the Tsetlin Machine with Semantic Clusters from Language Models for Interpretability
 [2026-06-20 10:47:47] Processed: U$^2$Mamba: A Two-level Nested U-structure Mamba for Salient Object Detection
+[2026-06-22 13:28:14] Processed: Sovereign Execution Brokers: Enforcing Certificate-Bound Authority in Agentic Control Planes
