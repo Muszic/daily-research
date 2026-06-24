@@ -168,3 +168,4 @@
 [2026-06-22 13:45:27] Processed: Thermodynamic Measure of Intelligence
 [2026-06-22 13:49:44] Processed: Finetuning Vision-Language-Action Models Requires Fewer Layers Than You Think
 [2026-06-22 13:54:12] Processed: JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines
+[2026-06-24 10:41:54] Processed: ObsGraph: Hierarchical Observation Representation for Embodied Reasoning and Exploration
