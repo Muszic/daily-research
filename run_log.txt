@@ -170,3 +170,4 @@
 [2026-06-22 13:54:12] Processed: JAMER: Project-Level Code Framework Dataset and Benchmark on Professional Game Engines
 [2026-06-24 10:41:54] Processed: ObsGraph: Hierarchical Observation Representation for Embodied Reasoning and Exploration
 [2026-06-27 09:57:45] Processed: Do Safety Guardrails Need to Reason? LeanGuard: A Fast and Light Approach for Robust Moderation
+[2026-06-30 10:49:43] Processed: Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection
