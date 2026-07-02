@@ -172,3 +172,4 @@
 [2026-06-27 09:57:45] Processed: Do Safety Guardrails Need to Reason? LeanGuard: A Fast and Light Approach for Robust Moderation
 [2026-06-30 10:49:43] Processed: Words Speak Louder Than Code: Investigating Cognitive Heuristics in LLM-Based Code Vulnerability Detection
 [2026-07-01 11:17:51] Processed: CAN We Trust Your Results? A Cross-Dataset Study of Automotive IDS Evaluation
+[2026-07-02 10:30:01] Processed: Graph-Native Reinforcement Learning Enables Traceable Scientific Hypothesis Generation through Conceptual Recombination
