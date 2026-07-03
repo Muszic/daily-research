@@ -176,3 +176,4 @@
 [2026-07-03 10:27:44] Processed: VT-WAM: Visual-Tactile World Action Model for Contact-Rich Manipulation
 [2026-07-03 10:33:24] Processed: Neuro-Symbolic Safety Guidance for Vision-Language-Action Models via Constrained Flow Matching
 [2026-07-03 10:42:21] Processed: Representation Distribution Matching for One-Step Visual Generation
+[2026-07-03 10:48:39] Processed: SkillFuzz: Fuzzing Skill Composition for Implicit Intents Discovery in Open Skill Marketplaces
