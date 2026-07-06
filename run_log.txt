@@ -180,3 +180,4 @@
 [2026-07-05 10:04:21] Processed: QFedAgent: Quantum-Enhanced Personalized Federated Learning for Multi-Agent Activity Recognition
 [2026-07-06 11:56:51] Processed: Fourier Preconditioning for Neural Feature Learning
 [2026-07-06 12:03:08] Processed: LIB-TRAP: Standard Cell Library Hardware Trojan Risk Assessment and Prevention
+[2026-07-06 12:09:29] Processed: ArcAD: Anomaly-Rectified Calibration for Cold-Start Supervised Anomaly Detection
