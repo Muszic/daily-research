@@ -179,3 +179,4 @@
 [2026-07-03 10:48:39] Processed: SkillFuzz: Fuzzing Skill Composition for Implicit Intents Discovery in Open Skill Marketplaces
 [2026-07-05 10:04:21] Processed: QFedAgent: Quantum-Enhanced Personalized Federated Learning for Multi-Agent Activity Recognition
 [2026-07-06 11:56:51] Processed: Fourier Preconditioning for Neural Feature Learning
+[2026-07-06 12:03:08] Processed: LIB-TRAP: Standard Cell Library Hardware Trojan Risk Assessment and Prevention
