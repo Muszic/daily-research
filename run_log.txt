@@ -186,3 +186,4 @@
 [2026-07-07 10:52:45] Processed: SLAM: Structured and Localized Analytic Manifold Adaptation for Lifelong VPR
 [2026-07-07 10:59:03] Processed: Adaptive Inference Batching using Policy Gradients
 [2026-07-08 10:09:09] Processed: A Function-Space Dichotomy for Compositional Learning: Exponential Sub-Optimality of the Neural Tangent Kernel
+[2026-07-10 10:45:39] Processed: A First-Principles Theory of Slow Thinking and Active Perception
