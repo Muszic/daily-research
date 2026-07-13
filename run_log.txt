@@ -190,3 +190,4 @@
 [2026-07-10 10:49:30] Processed: Deployment Risk Assessment Using Diff-Aware Features: A Case Study at Prime Video
 [2026-07-13 10:51:31] Processed: Scoped Verification for Reliable Long-Horizon Agentic Context Evolution under Distribution Shift
 [2026-07-13 10:53:54] Processed: Leveraging Interpretable Tsetlin Machine for PDF Malware Detection
+[2026-07-13 10:57:52] Processed: Remember When It Matters: Proactive Memory Agent for Long-Horizon Agents
