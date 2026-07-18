@@ -194,3 +194,4 @@
 [2026-07-13 11:05:07] Processed: Deep Gaussian Processes on Directed Acyclic Graphs
 [2026-07-15 09:52:47] Processed: PalmClaw: A Native On-Device Agent Framework for Mobile Phones
 [2026-07-16 10:00:06] Processed: BARS: Benign-Anchored Ranking and Selection for False Alarm Reduction in Network Intrusion Detection
+[2026-07-18 09:16:34] Processed: Pretraining Data Can Be Poisoned through Computational Propaganda
