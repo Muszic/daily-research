@@ -196,3 +196,4 @@
 [2026-07-16 10:00:06] Processed: BARS: Benign-Anchored Ranking and Selection for False Alarm Reduction in Network Intrusion Detection
 [2026-07-18 09:16:34] Processed: Pretraining Data Can Be Poisoned through Computational Propaganda
 [2026-07-18 09:26:12] Processed: MARS: Multi-hop Adaptive Retrieval and SPARQL Generation for KGQA
+[2026-07-20 10:43:12] Processed: QUADS: Stabilizing NVFP4 Reinforcement Learning for MoE via QUantization-error Alignment across Dual Sides
