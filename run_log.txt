@@ -199,3 +199,4 @@
 [2026-07-20 10:43:12] Processed: QUADS: Stabilizing NVFP4 Reinforcement Learning for MoE via QUantization-error Alignment across Dual Sides
 [2026-07-20 10:45:24] Processed: Rendering 3D Gaussians on a Graph Processor
 [2026-07-20 10:55:22] Processed: An Exam for Active Observers
+[2026-07-20 11:05:29] Processed: NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness
