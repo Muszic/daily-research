@@ -204,3 +204,4 @@
 [2026-07-21 10:17:29] Processed: DeLIVeR: Decomposed Learning for Information-grounded Veracity Recognition via Reinforced Knowledge Graph Exploration
 [2026-07-22 10:17:13] Processed: Exploiting Load/Store Leakage of Sparse Vectors for Key Recovery in HQC
 [2026-07-22 10:24:14] Processed: The Open Ant: A Robot Platform for Reinforcement Learning Research
+[2026-07-22 10:32:32] Processed: Incomplete Observations Boost Evolutionary Performance in Ocean Modeling
