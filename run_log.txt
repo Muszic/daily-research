@@ -202,3 +202,4 @@
 [2026-07-20 11:05:29] Processed: NeuroCommitSSM: Decision-Centric Shared Autonomy for Safe Assistive Manipulation via EEG-EMG-ET Commit Readiness
 [2026-07-20 11:13:48] Processed: NexForge: Scaling Agent Capabilities through Requirement-Driven Task Synthesis for LLMs
 [2026-07-21 10:17:29] Processed: DeLIVeR: Decomposed Learning for Information-grounded Veracity Recognition via Reinforced Knowledge Graph Exploration
+[2026-07-22 10:17:13] Processed: Exploiting Load/Store Leakage of Sparse Vectors for Key Recovery in HQC
