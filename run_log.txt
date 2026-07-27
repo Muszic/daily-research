@@ -205,3 +205,4 @@
 [2026-07-22 10:17:13] Processed: Exploiting Load/Store Leakage of Sparse Vectors for Key Recovery in HQC
 [2026-07-22 10:24:14] Processed: The Open Ant: A Robot Platform for Reinforcement Learning Research
 [2026-07-22 10:32:32] Processed: Incomplete Observations Boost Evolutionary Performance in Ocean Modeling
+[2026-07-27 11:11:52] Processed: IFCLoRA: Topology-Aware Rank Allocation for Parameter-Efficient Fine-Tuning
