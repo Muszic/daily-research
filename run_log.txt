@@ -206,3 +206,4 @@
 [2026-07-22 10:24:14] Processed: The Open Ant: A Robot Platform for Reinforcement Learning Research
 [2026-07-22 10:32:32] Processed: Incomplete Observations Boost Evolutionary Performance in Ocean Modeling
 [2026-07-27 11:11:52] Processed: IFCLoRA: Topology-Aware Rank Allocation for Parameter-Efficient Fine-Tuning
+[2026-07-27 11:19:21] Processed: CARDIAG: A Dense Segment Classification Benchmark of Deep Learning Architectures for Coronary Angiography
