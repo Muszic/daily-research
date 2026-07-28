@@ -208,3 +208,4 @@
 [2026-07-27 11:11:52] Processed: IFCLoRA: Topology-Aware Rank Allocation for Parameter-Efficient Fine-Tuning
 [2026-07-27 11:19:21] Processed: CARDIAG: A Dense Segment Classification Benchmark of Deep Learning Architectures for Coronary Angiography
 [2026-07-27 11:23:04] Processed: A Preliminary Search for Evidence on Government Software Engineering Practices: Results from Three Rapid Reviews
+[2026-07-28 10:26:32] Processed: Enhancing Code Understanding for Impact Analysis by Combining Transformers and Program Dependence Graphs
