@@ -212,3 +212,4 @@
 [2026-07-28 10:34:32] Processed: ACRL: Adaptive Control of Training-Inference Discrepancy for Stable Reinforcement Learning
 [2026-07-28 10:40:28] Processed: Looping Is Not Reliability: State-Bound Evidence and Typed Revision Contracts for Agentic Code Repair
 [2026-07-28 10:49:01] Processed: Retrieval-Augmented Large Language Models as Components of Cognitive Computing architecture for Regulatory Knowledge Management
+[2026-07-31 10:29:39] Processed: Low-Latency Bootstrapping for CKKS using Roots of Unity
