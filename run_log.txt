@@ -216,3 +216,4 @@
 [2026-08-05 10:27:39] Processed: Biconvex Optimization for Smooth Minimum-Time Trajectories around Convex Obstacles
 [2026-08-05 10:37:15] Processed: Efficient Knowledge Distillation for LLMs: Offline Top-K Logits and a Fused Chunked KL Loss
 [2026-08-05 10:45:52] Processed: What the Detector Can See: Evaluating CPS Anomaly Detectors Independently of the Decision Rule
+[2026-08-05 10:52:27] Processed: CPrefix: A Combinatorial Tensor Framework for Structured Discrete Color Mappings
