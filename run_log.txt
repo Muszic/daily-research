@@ -220,3 +220,4 @@
 [2026-08-08 08:30:05] Processed: LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs
 [2026-08-08 08:33:56] Processed: FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows
 [2026-08-08 08:40:33] Processed: Hardware Design and Security in the Era of Chiplets and LLMs
+[2026-08-08 08:45:00] Processed: LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents
