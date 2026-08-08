@@ -218,3 +218,4 @@
 [2026-08-05 10:45:52] Processed: What the Detector Can See: Evaluating CPS Anomaly Detectors Independently of the Decision Rule
 [2026-08-05 10:52:27] Processed: CPrefix: A Combinatorial Tensor Framework for Structured Discrete Color Mappings
 [2026-08-08 08:30:05] Processed: LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs
+[2026-08-08 08:33:56] Processed: FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows
