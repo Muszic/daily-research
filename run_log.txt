@@ -219,3 +219,4 @@
 [2026-08-05 10:52:27] Processed: CPrefix: A Combinatorial Tensor Framework for Structured Discrete Color Mappings
 [2026-08-08 08:30:05] Processed: LangChoiceBench: Measuring and Explaining Programming-Language Choice in LLMs
 [2026-08-08 08:33:56] Processed: FinEvo-Bench: A Longitudinal Benchmark for Self-Evolving Agents in Professional Financial Workflows
+[2026-08-08 08:40:33] Processed: Hardware Design and Security in the Era of Chiplets and LLMs
