@@ -222,3 +222,4 @@
 [2026-08-08 08:40:33] Processed: Hardware Design and Security in the Era of Chiplets and LLMs
 [2026-08-08 08:45:00] Processed: LoginTrap: Uncovering Task-Agnostic Phishing-Style Indirect Prompt Injection Attacks against LLM-based Web Agents
 [2026-08-10 09:09:13] Processed: H2AL: Hyperbolic Hierarchy-aware Aggregative Learning for Registration-based Few-shot Medical Image Segmentation
+[2026-08-11 08:44:34] Processed: Agentic Auto-Research is Fuzz Testing
