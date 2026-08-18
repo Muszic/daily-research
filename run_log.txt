@@ -228,3 +228,4 @@
 [2026-08-18 08:35:31] Processed: Trusted Hardware Acceleration for Function Secret Sharing
 [2026-08-18 08:40:19] Processed: What to Remember, What to Reveal: Privacy-Aware Memory for Conversational Agents
 [2026-08-18 08:45:43] Processed: Engineering Reliable Coding Agents: Evaluating and Operating the System Around the Model
+[2026-08-18 08:48:02] Processed: GEO-Flag: Detecting and Measuring GEO-Optimized Web Content
