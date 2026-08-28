@@ -238,3 +238,4 @@
 [2026-08-26 08:33:08] Processed: Score-Based Ideal Observer Approximation via Denoising Score Matching for Signal-Known-Exactly Detection Tasks
 [2026-08-26 08:35:43] Processed: MoTE: Mixture of Task Experts for Multi-Task Video Understanding
 [2026-08-26 08:41:48] Processed: Deep Learning Super Resolution for Satellite Cloud Mask Downscaling
+[2026-08-28 19:48:18] Processed: Investigating Software Aging in LLM-Generated Software Systems across Generation-and-Execution Environments
