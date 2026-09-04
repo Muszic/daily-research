@@ -243,3 +243,4 @@
 [2026-08-30 13:34:23] Processed: CLAP: Cross-Embodiment Video World Models are Zero-Shot Physical Simulators
 [2026-09-01 12:54:51] Processed: Verification-Time Dependency on a Disappearing Evaluator
 [2026-09-01 13:03:39] Processed: Analytic Dynamics: Learning Physics-Grounded Representation for Fast Intrinsic Dynamics Inference from Monocular Videos
+[2026-09-04 12:23:56] Processed: Athena: Vulnerability-Affected Library Identification via Knowledge Graph Completion
