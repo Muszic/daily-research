@@ -244,3 +244,4 @@
 [2026-09-01 12:54:51] Processed: Verification-Time Dependency on a Disappearing Evaluator
 [2026-09-01 13:03:39] Processed: Analytic Dynamics: Learning Physics-Grounded Representation for Fast Intrinsic Dynamics Inference from Monocular Videos
 [2026-09-04 12:23:56] Processed: Athena: Vulnerability-Affected Library Identification via Knowledge Graph Completion
+[2026-09-05 11:30:31] Processed: Long-Range Indirect Control-Flow Prediction in Stripped Binaries via Dual Virtual Hubs and Multi-Task Graph Learning
