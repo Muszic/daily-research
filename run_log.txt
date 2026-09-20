@@ -247,3 +247,4 @@
 [2026-09-05 11:30:31] Processed: Long-Range Indirect Control-Flow Prediction in Stripped Binaries via Dual Virtual Hubs and Multi-Task Graph Learning
 [2026-09-06 11:51:09] Processed: From Ordered Bernoulli Levels to Critical-Line Geometry: Integer Quantization, Bernoulli Residual Phase, and Prime-Power Spectra
 [2026-09-08 12:26:54] Processed: A Schema Bounded Language Model for Refining Robot Policies Without Destabilizing Local Learning
+[2026-09-20 12:46:30] Processed: WiC is Not WSD: A Study on LLMs and Lexical Ambiguity Resolution
