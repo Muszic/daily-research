@@ -251,3 +251,4 @@
 [2026-09-24 13:03:05] Processed: Learning Collective Dynamics with Differentiable Gaussian Representations
 [2026-09-24 13:08:10] Processed: FIRE: Failure-Informed Runtime Engineering for Reliable Language-Model Agents
 [2026-09-24 13:16:27] Processed: Minimal-Norm Univariate Two-Layer ReLU Classification: Exact Solutions and Global Optimality with Skip Connections
+[2026-09-26 12:35:15] Processed: Mind What Matters for Reasoning: Aligning Cross-Modal Attention via Selective Probability Mass Concentration
